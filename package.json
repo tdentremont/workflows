@@ -4,13 +4,14 @@
   "description": "Project for learning gulp, git and browserify",
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/tdentremont/workflows.git"
   },
   "main": "index.js",
   "author": "Terry D'Entremont",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-coffee": "^3.0.2",
     "gulp-util": "^3.0.8"
   }
 }
