@@ -103,7 +103,7 @@ gulp.task('images', function(){
 		})))
 		.pipe(gulpif(env === 'production', gulp.dest(outputDir + 'images')))
 		.pipe(connect.reload());
-})
+});
 
 gulp.task('json', function(){
 		gulp.src('builds/development/js/*.json')
