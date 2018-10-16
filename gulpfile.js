@@ -8,7 +8,7 @@ var coffeeSources = ['components/coffee/tagline.coffee'];
 var	jsSources = ['components/scripts/rclick.js',
 																	'components/scripts/pixgrid.js',
 																	'components/scripts/tagline.js',
-																	'componenet/scripts/template.js'];
+																	'components/scripts/template.js'];
 
 gulp.task('coffee', function(){
 				gulp.src( coffeeSources )
